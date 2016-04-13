@@ -1,0 +1,3 @@
+﻿  main.cpp
+c:\users\amorales2.laptop\documents\udemyc-class\basicexceptions\catchingsubclassexceptions\main.cpp(34): warning C4286: 'std::bad_alloc &': is caught by base class ('std::exception &') on line 34
+  CatchingSubclassExceptions.vcxproj -> C:\Users\amorales2.laptop\Documents\UdemyC-Class\BasicExceptions\Debug\CatchingSubclassExceptions.exe
