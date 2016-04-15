@@ -1,4 +1,1 @@
-﻿  main.cpp
-c:\users\andrew morales\documents\c++\udemyc-class\standardtemplatelibrary\twodimensionalvectors\main.cpp(18): warning C4018: '<': signed/unsigned mismatch
-c:\users\andrew morales\documents\c++\udemyc-class\standardtemplatelibrary\twodimensionalvectors\main.cpp(20): warning C4018: '<': signed/unsigned mismatch
-  TwoDimensionalVectors.vcxproj -> C:\Users\Andrew Morales\Documents\C++\UdemyC-Class\StandardTemplateLibrary\Debug\TwoDimensionalVectors.exe
+﻿  TwoDimensionalVectors.vcxproj -> C:\Users\amorales2.laptop\Documents\UdemyC-Class\StandardTemplateLibrary\Debug\TwoDimensionalVectors.exe
