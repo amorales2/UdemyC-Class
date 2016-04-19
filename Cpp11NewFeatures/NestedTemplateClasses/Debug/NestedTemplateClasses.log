@@ -1,2 +1,3 @@
 ﻿  main.cpp
+main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
   NestedTemplateClasses.vcxproj -> C:\Users\Andrew Morales\Documents\C++\UdemyC-Class\Cpp11NewFeatures\Debug\NestedTemplateClasses.exe
