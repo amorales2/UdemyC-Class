@@ -1,3 +1,2 @@
 ﻿  main.cpp
-c:\users\andrew morales\documents\c++\udemyc-class\cpp11newfeatures\object initialization\main.cpp(43): error C2280: 'Test::Test(const Test &)': attempting to reference a deleted function
-  c:\users\andrew morales\documents\c++\udemyc-class\cpp11newfeatures\object initialization\main.cpp(17): note: see declaration of 'Test::Test'
+  Object Initialization.vcxproj -> C:\Users\Andrew Morales\Documents\C++\UdemyC-Class\Cpp11NewFeatures\Debug\Object Initialization.exe
