@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Elision and Optimization", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Constructors and Memory", "Constructors and Memory\Constructors and Memory.vcxproj", "{C5BA7311-3D4B-4FCF-8985-C23431EFB7DC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rvalue References", "Rvalue References\Rvalue References.vcxproj", "{D52C46F0-3C55-4349-89C9-B5AC2360FABC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{C5BA7311-3D4B-4FCF-8985-C23431EFB7DC}.Release|x64.Build.0 = Release|x64
 		{C5BA7311-3D4B-4FCF-8985-C23431EFB7DC}.Release|x86.ActiveCfg = Release|Win32
 		{C5BA7311-3D4B-4FCF-8985-C23431EFB7DC}.Release|x86.Build.0 = Release|Win32
+		{D52C46F0-3C55-4349-89C9-B5AC2360FABC}.Debug|x64.ActiveCfg = Debug|x64
+		{D52C46F0-3C55-4349-89C9-B5AC2360FABC}.Debug|x64.Build.0 = Debug|x64
+		{D52C46F0-3C55-4349-89C9-B5AC2360FABC}.Debug|x86.ActiveCfg = Debug|Win32
+		{D52C46F0-3C55-4349-89C9-B5AC2360FABC}.Debug|x86.Build.0 = Debug|Win32
+		{D52C46F0-3C55-4349-89C9-B5AC2360FABC}.Release|x64.ActiveCfg = Release|x64
+		{D52C46F0-3C55-4349-89C9-B5AC2360FABC}.Release|x64.Build.0 = Release|x64
+		{D52C46F0-3C55-4349-89C9-B5AC2360FABC}.Release|x86.ActiveCfg = Release|Win32
+		{D52C46F0-3C55-4349-89C9-B5AC2360FABC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
