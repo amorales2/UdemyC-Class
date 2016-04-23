@@ -86,10 +86,16 @@ int main()
 	int *pValue1 = &value1;
 
 	Test *pTest1 = &test1;
-	Test *pTest2 = &getTest();
+	//Test *pTest2 = &getTest();
 
 	int *pValue3 = &++value1;
 	std::cout << *pValue3 << std::endl;
+
+
+	//this does not work because postfix operators create a temp copy of the value
+	//and then increment it. The temp copy here is an rvalue and cannot be 
+	//incremented
+	//int *pValue3 = &value1++;
 
 	return 0;
 }
