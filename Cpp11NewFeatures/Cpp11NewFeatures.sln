@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Static Cast", "Static Cast\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dynamic Cast", "Dynamic Cast\Dynamic Cast.vcxproj", "{B98AB63D-93B1-42F9-A9C4-A32CC8978A53}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reinterpret Cast", "Reinterpret Cast\Reinterpret Cast.vcxproj", "{E7A85C9F-C567-47EA-B2B5-CE933250621F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -231,6 +233,14 @@ Global
 		{B98AB63D-93B1-42F9-A9C4-A32CC8978A53}.Release|x64.Build.0 = Release|x64
 		{B98AB63D-93B1-42F9-A9C4-A32CC8978A53}.Release|x86.ActiveCfg = Release|Win32
 		{B98AB63D-93B1-42F9-A9C4-A32CC8978A53}.Release|x86.Build.0 = Release|Win32
+		{E7A85C9F-C567-47EA-B2B5-CE933250621F}.Debug|x64.ActiveCfg = Debug|x64
+		{E7A85C9F-C567-47EA-B2B5-CE933250621F}.Debug|x64.Build.0 = Debug|x64
+		{E7A85C9F-C567-47EA-B2B5-CE933250621F}.Debug|x86.ActiveCfg = Debug|Win32
+		{E7A85C9F-C567-47EA-B2B5-CE933250621F}.Debug|x86.Build.0 = Debug|Win32
+		{E7A85C9F-C567-47EA-B2B5-CE933250621F}.Release|x64.ActiveCfg = Release|x64
+		{E7A85C9F-C567-47EA-B2B5-CE933250621F}.Release|x64.Build.0 = Release|x64
+		{E7A85C9F-C567-47EA-B2B5-CE933250621F}.Release|x86.ActiveCfg = Release|Win32
+		{E7A85C9F-C567-47EA-B2B5-CE933250621F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
