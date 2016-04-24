@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reinterpret Cast", "Reinter
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Perfect Forwarding", "Perfect Forwarding\Perfect Forwarding.vcxproj", "{52E6121E-29F9-4784-A355-90972073DBE2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binding", "Binding\Binding.vcxproj", "{0F62000B-AC02-490C-8FAD-C051CCFB5DE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -251,6 +253,14 @@ Global
 		{52E6121E-29F9-4784-A355-90972073DBE2}.Release|x64.Build.0 = Release|x64
 		{52E6121E-29F9-4784-A355-90972073DBE2}.Release|x86.ActiveCfg = Release|Win32
 		{52E6121E-29F9-4784-A355-90972073DBE2}.Release|x86.Build.0 = Release|Win32
+		{0F62000B-AC02-490C-8FAD-C051CCFB5DE2}.Debug|x64.ActiveCfg = Debug|x64
+		{0F62000B-AC02-490C-8FAD-C051CCFB5DE2}.Debug|x64.Build.0 = Debug|x64
+		{0F62000B-AC02-490C-8FAD-C051CCFB5DE2}.Debug|x86.ActiveCfg = Debug|Win32
+		{0F62000B-AC02-490C-8FAD-C051CCFB5DE2}.Debug|x86.Build.0 = Debug|Win32
+		{0F62000B-AC02-490C-8FAD-C051CCFB5DE2}.Release|x64.ActiveCfg = Release|x64
+		{0F62000B-AC02-490C-8FAD-C051CCFB5DE2}.Release|x64.Build.0 = Release|x64
+		{0F62000B-AC02-490C-8FAD-C051CCFB5DE2}.Release|x86.ActiveCfg = Release|Win32
+		{0F62000B-AC02-490C-8FAD-C051CCFB5DE2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
