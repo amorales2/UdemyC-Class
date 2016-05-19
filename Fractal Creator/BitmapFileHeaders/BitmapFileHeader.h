@@ -4,6 +4,7 @@
 
 #pragma once
 #pragma pack(2) //force 2 byte boundry allignment with no padding bytes
+#include <cstdint>
 
 struct BitmapFileHeader
 {
