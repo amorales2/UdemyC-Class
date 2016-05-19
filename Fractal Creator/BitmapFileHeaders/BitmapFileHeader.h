@@ -3,7 +3,8 @@
 //
 
 #pragma once
-#pragma pack(2) //force 2 byte boundry allignment with no padding bytes
+//force 2 byte boundry allignment with no padding bytes
+#pragma pack(2) 
 #include <cstdint>
 
 struct BitmapFileHeader

@@ -4,6 +4,7 @@
 
 
 #pragma once
+//force 2 byte boundry allignment with no padding bytes
 #pragma pack(2)
 #include <cstdint>
 

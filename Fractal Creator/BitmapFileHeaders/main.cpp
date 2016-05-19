@@ -4,6 +4,8 @@
 
 #include <iostream>
 #include "BitmapFileHeader.h"
+#include "Bitmap.h"
+
 
 int main()
 {
