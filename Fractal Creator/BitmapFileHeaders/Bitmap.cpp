@@ -17,6 +17,12 @@ Bitmap::Bitmap(int width, int height) :
 
 void Bitmap::setPixel(int x, int y, uchar red, uchar green, uchar blue)
 {
+	uchar* pPixel = m_pPixels.get();
+	pPixel += (y * 3) * m_width + (x * 3);
+	
+	pPixel[0] = blue;
+	pPixel[1] = green;
+	pPixel[2] = red;
 
 }
 
@@ -39,7 +45,7 @@ bool Bitmap::write(std::string filename)
 	}
 	file.write((char*)&fileHeader, sizeof(fileHeader));
 	file.write((char*)&infoHeader, sizeof(infoHeader));
-	file.write((char*) m_pPixels.get(), m_width*m_height * 3);
+	file.write((char*)m_pPixels.get(), m_width*m_height * 3);
 
 
 
