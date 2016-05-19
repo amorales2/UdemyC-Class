@@ -1,6 +1,8 @@
 ///////////////////////////////////////////////////////////////////////////////
 //Bitmap.cpp
 //
+
+#include <fstream>
 #include "Bitmap.h"
 #include "BitmapInfoHeader.h"
 #include "BitmapFileHeader.h"
@@ -29,8 +31,26 @@ bool Bitmap::write(std::string filename)
 	infoHeader.width = m_width;
 	infoHeader.height = m_height;
 
-	//TODO
-	return false;
+	std::ofstream file;
+	file.open(filename, std::ios::out, std::ios::binary);
+
+	if (!file) {
+		return false;
+	}
+	file.write((char*)&fileHeader, sizeof(fileHeader));
+	file.write((char*)&infoHeader, sizeof(infoHeader));
+	file.write((char*) m_pPixels.get(), m_width*m_height * 3);
+
+
+
+	file.close();
+	//this has a bit of code smell to it. 
+	//this function returning false could mean 3 different things
+	if (!file) {
+		return false;
+	}
+
+	return true;
 }
 
 Bitmap::~Bitmap()
