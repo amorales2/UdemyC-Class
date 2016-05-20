@@ -6,6 +6,8 @@
 #pragma once
 //force 2 byte boundry allignment with no padding bytes
 #pragma pack(2)
+
+
 #include <cstdint>
 
 struct BitmapInfoHeader 
@@ -22,4 +24,3 @@ struct BitmapInfoHeader
 	std::int32_t colors{ 0 };
 	std::int32_t importantColors{ 0 };
 };
-
