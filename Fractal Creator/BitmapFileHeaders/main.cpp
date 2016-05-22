@@ -27,6 +27,7 @@ int main()
 			std::uint8_t red = (std::uint8_t)(256 * (double)iterations / Mandelbrot::MAX_ITERATIONS);
 
 			bitmap.setPixel(x, y, red, 0, 0);
+
 			if (red < min) min = red;
 			if (red > max) max = red;
 		}
